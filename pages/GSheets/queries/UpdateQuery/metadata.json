@@ -95,6 +95,9 @@
           "viewType": "component",
           "componentData": "ROWS"
         },
+        "range": {
+          "data": ""
+        },
         "rowObjects": {
           "data": "{{\n\t{\n\t\t...update_form.formData, \n\t\trowIndex:data_table.selectedRow.rowIndex\n\t}\n}}",
           "viewType": "component",
@@ -123,6 +126,7 @@
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
