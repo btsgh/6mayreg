@@ -1,4 +1,15 @@
 {
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#FFDEDE",
+  "evaluationVersion": 2,
+  "icon": "book",
   "pages": [
     {
       "id": "OAuth",
@@ -9,21 +20,9 @@
       "isDefault": false
     }
   ],
-  "viewMode": false,
-  "appIsExample": false,
-  "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
     }
-  },
-  "color": "#FFDEDE",
-  "icon": "book",
-  "unpublishedCustomJSLibs": [],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "collapseInvisibleWidgets": true,
-  "isManualUpdate": false,
-  "deleted": false
+  }
 }
