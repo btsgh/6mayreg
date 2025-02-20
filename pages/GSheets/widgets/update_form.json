@@ -149,6 +149,33 @@
     },
     {
       "key": "schema.__root_schema__.children.Gender.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Place.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Place.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Place.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Designation.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Designation.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Designation.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Data.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Data.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Data.accentColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -228,6 +255,50 @@
           "position": 1,
           "sourceData": "10.10.1990"
         },
+        "Data": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Data",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Data))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Data",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Data",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Data",
+          "position": 5,
+          "sourceData": ""
+        },
+        "Designation": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Designation",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Designation))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Designation",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Designation",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Designation",
+          "position": 4,
+          "sourceData": ""
+        },
         "Gender": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "accessor": "Gender",
@@ -271,6 +342,28 @@
           "originalIdentifier": "Name",
           "position": 0,
           "sourceData": "Rashmi"
+        },
+        "Place": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Place",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Place))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Place",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Place",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Place",
+          "position": 3,
+          "sourceData": "India"
         }
       },
       "dataType": "object",
